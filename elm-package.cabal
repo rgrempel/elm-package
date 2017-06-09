@@ -1,20 +1,20 @@
-Name: elm-package
+Name: frelm-package
 Version: 0.18
 
 Synopsis:
-    Package manager for Elm libraries
+    Alternative package manager for Elm libraries
 Description:
-    elm-package is a package manager that lets you install, update, and
-    publish Elm libraries.
+    frelm-package is a package manager that lets you install, update, and
+    publish Elm libraries that are not permitted in package.elm-lang.org
 
 Homepage:
-    http://github.com/elm-lang/elm-package
+    http://github.com/rgrempel/frelm-package
 
 License: BSD3
 License-file: LICENSE
 
-Author:     Evan Czaplicki
-Maintainer: info@elm-lang.org
+Author:     Ryan Rempel (based on work by Evan Czaplicki)
+Maintainer: rgrempel@gmail.com
 Copyright:  Copyright: (c) 2013-2014 Evan Czaplicki
 
 Category: Language
@@ -24,7 +24,7 @@ Cabal-version: >=1.9
 
 source-repository head
     type:     git
-    location: git://github.com/elm-lang/elm-package.git
+    location: git://github.com/rgrempel/frelm-package.git
 
 Library
     ghc-options:
@@ -81,7 +81,7 @@ Library
         zip-archive
 
 
-Executable elm-package
+Executable frelm-package
     ghc-options:
         -threaded -O2 -W
 
