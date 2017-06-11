@@ -50,7 +50,7 @@ Library
         Install.Plan,
         Install.Solver,
         Manager,
-        Paths_elm_package,
+        Paths_frelm_package,
         Reporting.Error,
         Store,
         Utils.Http
@@ -117,7 +117,7 @@ Executable frelm-package
         Store,
         Utils.Http,
         Utils.Paths,
-        Paths_elm_package
+        Paths_frelm_package
 
     Build-depends:
         aeson >= 0.11,
